@@ -1,0 +1,308 @@
+---
+title: "Experience Dashboard"
+slug: "digital-experience-dashboard"
+type: "page"
+date: "2026-10-13 21:08:04"
+---
+
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"backgroundColor":"theme-5","textColor":"theme-1","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-theme-1-color has-theme-5-background-color has-text-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--50)"><!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"55%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:55%"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.12em"}},"textColor":"theme-3","fontSize":"small"} -->
+<p class="has-theme-3-color has-text-color has-small-font-size" style="letter-spacing:0.12em;text-transform:uppercase">Digital Experience Showcase</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":1,"style":{"typography":{"lineHeight":"1.1","fontWeight":"700"}},"fontSize":"x-large"} -->
+<h1 class="wp-block-heading has-x-large-font-size" style="font-weight:700;line-height:1.1">Move your content between platforms without losing a single field.</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.6"}},"textColor":"theme-2","fontSize":"medium"} -->
+<p class="has-theme-2-color has-text-color has-medium-font-size" style="line-height:1.6">DXS is a working test bed for CMS migrations. Real content models, relationships, rich text and assets, ready to compare before and after every move.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"theme-1","textColor":"theme-5"} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-theme-5-color has-theme-1-background-color has-text-color has-background wp-element-button" href="/blog">Explore the showcase</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"textColor":"theme-1","className":"is-style-outline"} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-theme-1-color has-text-color wp-element-button" href="/design-system">View the design system</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","width":"45%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:45%"><!-- wp:image {"id":21,"aspectRatio":"4/5","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"8px"}}} -->
+<figure class="wp-block-image size-large has-custom-border"><img src="https://unique-theorist.wordpress.com/wp-content/uploads/2026/10/unique-theorist-6acee54f6fbd0.png" alt="Layered interface panels connected by lines, representing structured content moving between platforms" class="wp-image-21" style="border-radius:8px;aspect-ratio:4/5;object-fit:cover" /></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"backgroundColor":"theme-1","textColor":"theme-5","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-theme-5-color has-theme-1-background-color has-text-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|60"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide"><!-- wp:heading {"style":{"typography":{"lineHeight":"1.15","textAlign":"left"}},"fontSize":"large"} -->
+<h2 class="wp-block-heading has-text-align-left has-large-font-size" style="line-height:1.15">Everything a migration needs to prove itself</h2>
+<!-- /wp:heading -->
+
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
+<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"backgroundColor":"theme-2","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-theme-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">23 routes, all seeded</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"textColor":"theme-4"} -->
+<p class="has-theme-4-color has-text-color">From blog and products to events, careers and the admin CMS, every route resolves real records with stable identifiers.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
+<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"backgroundColor":"theme-2","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-theme-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Relationships stay intact</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"textColor":"theme-4"} -->
+<p class="has-theme-4-color has-text-color">Authors link to posts, products to reviews, events to speakers. Check reference integrity after every move.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
+<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"backgroundColor":"theme-2","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-theme-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Every publication state</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"textColor":"theme-4"} -->
+<p class="has-theme-4-color has-text-color">Published, draft, scheduled and archived entries, plus null fields, Unicode text and long bodies.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
+<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"backgroundColor":"theme-2","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-theme-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Works offline</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"textColor":"theme-4"} -->
+<p class="has-theme-4-color has-text-color">Mock mode needs no database and no network. Seed and reset to the same fixed fixtures any time.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"backgroundColor":"theme-2","textColor":"theme-5","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-theme-5-color has-theme-2-background-color has-text-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|60"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide"><!-- wp:heading {"style":{"typography":{"lineHeight":"1.15"}},"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size" style="line-height:1.15">Featured posts</h2>
+<!-- /wp:heading -->
+
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
+<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:group {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|40"}},"backgroundColor":"theme-1","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-theme-1-background-color has-background" style="padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:image {"id":23,"aspectRatio":"16/10","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://unique-theorist.wordpress.com/wp-content/uploads/2026/10/unique-theorist-6acee550ccdcc.png" alt="Laptop on a desk showing a content schema diagram" class="wp-image-23" style="aspect-ratio:16/10;object-fit:cover" /></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"textColor":"theme-4","fontSize":"small"} -->
+<p class="has-theme-4-color has-text-color has-small-font-size">Content modeling / 8 min read</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Mapping a Contentful model to Sanity schemas</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"textColor":"theme-4"} -->
+<p class="has-theme-4-color has-text-color">A field-by-field walkthrough of types, references and validation rules, with checks to run after the move.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="/blog">Read the article</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
+<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:group {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|40"}},"backgroundColor":"theme-1","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-theme-1-background-color has-background" style="padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:image {"id":24,"aspectRatio":"16/10","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://unique-theorist.wordpress.com/wp-content/uploads/2026/10/unique-theorist-6acee550b8313.png" alt="Rich text editor on a monitor beside a notebook" class="wp-image-24" style="aspect-ratio:16/10;object-fit:cover" /></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"textColor":"theme-4","fontSize":"small"} -->
+<p class="has-theme-4-color has-text-color has-small-font-size">Rich text / 6 min read</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Rich text that survives WordPress to Contentful</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"textColor":"theme-4"} -->
+<p class="has-theme-4-color has-text-color">Nested blocks, embedded entries and inline marks: what converts cleanly and what needs a second look.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="/blog">Read the article</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"theme-5","textColor":"theme-1"} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-theme-1-color has-theme-5-background-color has-text-color has-background wp-element-button" href="/blog">Browse all posts</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"backgroundColor":"theme-4","textColor":"theme-1","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-theme-1-color has-theme-4-background-color has-text-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|60"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide"><!-- wp:heading {"style":{"typography":{"lineHeight":"1.15"}},"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size" style="line-height:1.15">Featured products and events</h2>
+<!-- /wp:heading -->
+
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
+<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:group {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|40"}},"backgroundColor":"theme-5","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-theme-5-background-color has-background" style="padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:image {"id":20,"aspectRatio":"16/10","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://unique-theorist.wordpress.com/wp-content/uploads/2026/10/unique-theorist-6acee550b3c74.png" alt="Printed documentation booklets and a tablet on a grey surface" class="wp-image-20" style="aspect-ratio:16/10;object-fit:cover" /></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"textColor":"theme-3","fontSize":"small"} -->
+<p class="has-theme-3-color has-text-color has-small-font-size">Product / In stock in 3 variants</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Migration Field Guide Bundle</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"textColor":"theme-2"} -->
+<p class="has-theme-2-color has-text-color">Printed and digital checklists for content audits, mapping and post-migration verification. From $48.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="/products">View the product</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
+<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:group {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|40"}},"backgroundColor":"theme-5","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-theme-5-background-color has-background" style="padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:image {"id":22,"aspectRatio":"16/10","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://unique-theorist.wordpress.com/wp-content/uploads/2026/10/unique-theorist-6acee55079694.png" alt="Conference stage with a large screen and audience" class="wp-image-22" style="aspect-ratio:16/10;object-fit:cover" /></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"textColor":"theme-3","fontSize":"small"} -->
+<p class="has-theme-3-color has-text-color has-small-font-size">Event / 14 October 2026</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+<h3 class="wp-block-heading has-medium-font-size">Headless Migration Summit</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"textColor":"theme-2"} -->
+<p class="has-theme-2-color has-text-color">A full day of schedule, speakers and live demos on moving structured content between systems. Registration is open.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="/events">See the event</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"theme-1","textColor":"theme-5"} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-theme-5-color has-theme-1-background-color has-text-color has-background wp-element-button" href="/events">Browse events</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"textColor":"theme-1","className":"is-style-outline"} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-theme-1-color has-text-color wp-element-button" href="/products">Shop products</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"backgroundColor":"theme-1","textColor":"theme-5","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-theme-5-color has-theme-1-background-color has-text-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|60"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide"><!-- wp:heading {"style":{"typography":{"lineHeight":"1.15"}},"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size" style="line-height:1.15">What teams say after the move</h2>
+<!-- /wp:heading -->
+
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
+<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:quote {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50"}},"border":{"left":{"color":"var:preset|color|theme-5","width":"4px"}}}} -->
+<blockquote class="wp-block-quote" style="border-left-color:var(--wp--preset--color--theme-5);border-left-width:4px;padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:paragraph {"fontSize":"medium"} -->
+<p class="has-medium-font-size">We found three broken references in an afternoon. Before DXS we would have found them in production.</p>
+<!-- /wp:paragraph --><cite>Amara Okafor, Platform Lead</cite></blockquote>
+<!-- /wp:quote --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
+<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:quote {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50"}},"border":{"left":{"color":"var:preset|color|theme-5","width":"4px"}}}} -->
+<blockquote class="wp-block-quote" style="border-left-color:var(--wp--preset--color--theme-5);border-left-width:4px;padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:paragraph {"fontSize":"medium"} -->
+<p class="has-medium-font-size">Fixed fixtures mean fixed answers. Our agents compare counts, ordering and rich text, and the diff is the whole story.</p>
+<!-- /wp:paragraph --><cite>Jonas Lindqvist, Migration Engineer</cite></blockquote>
+<!-- /wp:quote --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"backgroundColor":"theme-2","textColor":"theme-5","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-theme-5-color has-theme-2-background-color has-text-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--50)"><!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|60"}}}} -->
+<div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"55%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:55%"><!-- wp:heading {"style":{"typography":{"lineHeight":"1.15"}},"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size" style="line-height:1.15">Get the migration notes in your inbox</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"textColor":"theme-4","fontSize":"medium"} -->
+<p class="has-theme-4-color has-text-color has-medium-font-size">One short email a month: new fixtures, new field types and what changed in the test bed.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","width":"45%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:45%"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|40"}},"backgroundColor":"theme-1","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-theme-1-background-color has-background" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:paragraph {"textColor":"theme-5"} -->
+<p class="has-theme-5-color has-text-color">Join the newsletter. We never share your address, and you can unsubscribe in one click.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"theme-5","textColor":"theme-1"} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-theme-1-color has-theme-5-background-color has-text-color has-background wp-element-button" href="/contact">Subscribe</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"backgroundColor":"theme-5","textColor":"theme-1","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-theme-1-color has-theme-5-background-color has-text-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|50"}},"layout":{"type":"constrained","contentSize":"720px"}} -->
+<div class="wp-block-group alignwide"><!-- wp:heading {"style":{"typography":{"lineHeight":"1.15","textAlign":"center"}},"fontSize":"large"} -->
+<h2 class="wp-block-heading has-text-align-center has-large-font-size" style="line-height:1.15">Ready to test your next migration?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"typography":{"textAlign":"center"}},"textColor":"theme-2","fontSize":"medium"} -->
+<p class="has-text-align-center has-theme-2-color has-text-color has-medium-font-size">Start with the seeded fixtures, open the admin CMS, or talk to us about your own content model.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"theme-1","textColor":"theme-5"} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-theme-5-color has-theme-1-background-color has-text-color has-background wp-element-button" href="/admin">Open the admin CMS</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"textColor":"theme-1","className":"is-style-outline"} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-theme-1-color has-text-color wp-element-button" href="/contact">Contact the team</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->

@@ -10,5 +10,5 @@ This site is machine-generated evidence, not a hand-written website. It was prod
 
 ## Conventions on display
 
-- The address follows the project naming convention: `from.<source>` holds a run's output. The source is `wp.sandbox.migrateme.tech`; a sibling route, `wp.spacefast.sandbox.migrateme.tech`, holds the same source site moved by SpaceFast's official tooling instead.
+- The address follows the project naming convention: `from.<source>` holds a run's output. The source is `wp.sandbox.migrateme.tech`; a sibling route, `wp.spacefast.sandbox.migrateme.tech`, holds the same source site, published to SpaceFast as a static mirror via the CLI after the official plugin's publish stalled on WordPress.com.
 - Publication states are WordPress's own (publish / draft / private / future) and are shown as recorded. The scheduled item kept its local time; attachment binaries travel separately, so attachment items here are metadata records.

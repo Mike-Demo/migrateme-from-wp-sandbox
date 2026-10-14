@@ -1,0 +1,11 @@
+# from.wp.sandbox.migrateme.tech
+
+> The published output of the migrateme.tech toolkit's first real-world run: a live WordPress site (DXS, the Digital Experience Showcase) exported as WXR and migrated to Markdown on October 14, 2026 — plan, dry run, approved migration, validation. 44 items, 420 field mappings (287 deterministic, 133 manual review), 310 risks flagged, validation passed 44/44 with an empty exception queue.
+
+## The run
+
+- [Index of migrated items](https://from.wp.sandbox.migrateme.tech/): every item, grouped as WordPress sent it — posts, pages, attachments, and everything else (templates, navigation, global styles, AI Guidelines)
+- [manifest.json](https://from.wp.sandbox.migrateme.tech/manifest.json): the full run manifest — items, mappings, provenance, sha256 checksums
+- [Source site](https://wp.sandbox.migrateme.tech/): the WordPress testbed this output came from
+- [Project home](https://migrateme.tech/): migrateme.tech, the toolkit
+- [agents.md](https://from.wp.sandbox.migrateme.tech/agents.md): how this site was produced and how to consume it

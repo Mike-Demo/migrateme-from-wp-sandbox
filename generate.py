@@ -69,10 +69,13 @@ def page(title, eyebrow, content):
     return f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="/logo.svg">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <title>{html.escape(title)} — from.wp.sandbox · migrateme.tech</title>
 <style>{CSS}</style></head>
 <body><div class="wrap">
-<p class="eyebrow">{html.escape(eyebrow)}</p>
+<p class="eyebrow"><img src="/logo.svg" alt="" width="22" height="22" style="vertical-align:-5px;margin-right:8px">{html.escape(eyebrow)}</p>
 {content}
 <footer>MIT licensed. Built by <a href="https://mikedemo.dev">Mike "Demo" Demopoulos</a> ·
 <a href="https://github.com/Mike-Demo/migrateme.tech">migrateme.tech</a> ·
@@ -121,9 +124,12 @@ for gtype, gname in groups:
                  f"<td><code>{html.escape(fm.get('slug', ''))}</code></td>"
                  f"<td>{html.escape(it.get('wstatus') or '')}</td><td>{html.escape(fm.get('date', ''))}</td></tr>")
     if rows:
-        sections += f"<h2>{gname}</h2><table><tr><th>Title</th><th>Slug</th><th>WP status</th><th>Date</th></tr>{rows}</table>"
+        sections += f"<h2 id=\"{gtype}\">{gname}</h2><table><tr><th>Title</th><th>Slug</th><th>WP status</th><th>Date</th></tr>{rows}</table>"
 
 index_content = """<h1>From WordPress: a real migration, published</h1>
+<p><strong>On this page:</strong> <a href="#run">The run</a> · <a href="#post">Posts</a> · <a href="#page">Pages</a> · <a href="#attachment">Attachments</a> · <a href="#other">Everything else</a> · <a href="manifest.json">Manifest</a> · <a href="llms.txt">llms.txt</a> · <a href="agents.md">For agents</a></p>
+<p><strong>Start with the address:</strong> <code>from.wp.sandbox.migrateme.tech</code> follows this project's naming convention — every address declares what it is. This one holds everything that came <em>from</em> the <code>wp.sandbox</code> source. Its sibling <code>wp.spacefast.sandbox</code> is the same site after a different route, and the destination-form routes (<code>lovable-to-wordpress.migrateme.tech</code>) are the convention's next step.</p>
+<h2 id="run">The run</h2>
 <p>This site is the <strong>output</strong> of the migrateme.tech toolkit's first real-world run — not a mockup.
 The source is the live WordPress testbed at <a href="https://wp.sandbox.migrateme.tech">wp.sandbox.migrateme.tech</a> (DXS, the Digital Experience
 Showcase). Its WXR export was run through the toolkit on October 14, 2026: plan, dry run, approved migration, validation.
@@ -148,3 +154,37 @@ shutil.copy(os.path.join(RUN, 'manifest.json'), os.path.join(OUT, 'manifest.json
 with open(os.path.join(OUT, 'CNAME'), 'w') as f:
     f.write('from.wp.sandbox.migrateme.tech\n')
 print('generated:', len(items), 'item pages + index')
+
+
+LLMS = """# from.wp.sandbox.migrateme.tech
+
+> The published output of the migrateme.tech toolkit's first real-world run: a live WordPress site (DXS, the Digital Experience Showcase) exported as WXR and migrated to Markdown on October 14, 2026 — plan, dry run, approved migration, validation. 44 items, 420 field mappings (287 deterministic, 133 manual review), 310 risks flagged, validation passed 44/44 with an empty exception queue.
+
+## The run
+
+- [Index of migrated items](https://from.wp.sandbox.migrateme.tech/): every item, grouped as WordPress sent it — posts, pages, attachments, and everything else (templates, navigation, global styles, AI Guidelines)
+- [manifest.json](https://from.wp.sandbox.migrateme.tech/manifest.json): the full run manifest — items, mappings, provenance, sha256 checksums
+- [Source site](https://wp.sandbox.migrateme.tech/): the WordPress testbed this output came from
+- [Project home](https://migrateme.tech/): migrateme.tech, the toolkit
+- [agents.md](https://from.wp.sandbox.migrateme.tech/agents.md): how this site was produced and how to consume it
+"""
+
+AGENTS = """# from.wp.sandbox — for agents
+
+This site is machine-generated evidence, not a hand-written website. It was produced by the migrateme.tech toolkit from a live WordPress export, and republished as static HTML by a small Python generator (in the repository) so humans and agents can inspect a real migration run.
+
+## How to consume it
+
+- `index.html` is the human index. Item pages under `items/` render each migrated file: front matter first, then the body exactly as written.
+- `raw/` holds the engine's output byte for byte — cite these, not the rendered pages, when precision matters.
+- `manifest.json` is the authoritative run record: 44 items, 420 mappings with methods (deterministic vs manual-review), provenance, and sha256 checksums for source and destination. If a rendered page and the manifest disagree, the manifest wins.
+
+## Conventions on display
+
+- The address follows the project naming convention: `from.<source>` holds a run's output. The source is `wp.sandbox.migrateme.tech`; a sibling route, `wp.spacefast.sandbox.migrateme.tech`, holds the same source site moved by SpaceFast's official tooling instead.
+- Publication states are WordPress's own (publish / draft / private / future) and are shown as recorded. The scheduled item kept its local time; attachment binaries travel separately, so attachment items here are metadata records.
+"""
+
+with open(os.path.join(OUT, 'llms.txt'), 'w', encoding='utf-8') as f: f.write(LLMS)
+with open(os.path.join(OUT, 'agents.md'), 'w', encoding='utf-8') as f: f.write(AGENTS)
+print('generator: llms/agents emitters added')
